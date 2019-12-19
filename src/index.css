@@ -1,0 +1,25 @@
+/* @import url(//db.onlinewebfonts.com/c/cd2242816d23dad4250f5ea159c7675c?family=Smallest+Pixel-7); */
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+:root{
+  --bleu:#000084;
+  --purple:#8E17D3;
+  --sky:#00aaaa;
+  --yellow : #fefe54;
+   --gray : #bbbbbb ;
+
+}
+
+
+
+*{
+  /* font-family: "Smallest Pixel-7"; */
+  
+  font-family: "Press Start 2P", monospace;
+  color: #fff;
+}
+body {
+ background:var(--bleu);
+ margin: 0px;
+ padding: 0px;
+}

@@ -1,0 +1,29 @@
+.navcontainer{
+    font-size: 13px;
+    background:var(--gray);
+height: 21px;
+width: 100%;
+position: absolute;
+}
+
+
+.stul{
+    list-style-type: none;
+    margin: 0px 200px;
+}
+.stli{
+padding: 4px 12px;
+
+    float: left;
+    &:hover{
+        background: #000;
+        color: var(--gray);
+    }
+    &:nth-child(1){
+        color:var(--bleu);
+        &:hover{
+            background: #000;
+            color: var(--gray);
+        }
+    }
+}
