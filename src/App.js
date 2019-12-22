@@ -14,11 +14,12 @@ function App() {
 <div>
 <Description />
 </div>
-
+<div className="line"></div>
 <div>
 <Info />
 </div>
-<Info />
+<div className="line"></div>
+
 </div>
   );
 }

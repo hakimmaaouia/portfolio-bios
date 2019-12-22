@@ -1,9 +1,10 @@
 .navcontainer{
    background: var(--grey);
-
 font-size: 10px;
 padding: var(--padding);
-
+width: 10000px;
+position: fixed;
+top: 0;
 }
 ul{
 margin: 0;
