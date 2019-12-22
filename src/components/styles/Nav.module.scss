@@ -1,29 +1,56 @@
 .navcontainer{
-    font-size: 13px;
-    background:var(--gray);
-height: 21px;
-width: 100%;
-position: absolute;
+   background: var(--grey);
+
+font-size: 10px;
+padding: var(--padding);
+
 }
+ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+overflow: hidden;
 
-
-.stul{
-    list-style-type: none;
-    margin: 0px 200px;
 }
-.stli{
-padding: 4px 12px;
-
+li{
     float: left;
+    padding:7px 14px 7px 7px;
+color: black;
     &:hover{
-        background: #000;
-        color: var(--gray);
+background: #000;
+color: var(--grey)
     }
     &:nth-child(1){
-        color:var(--bleu);
+        color: var(--bleu);
+        padding:7px 14px 7px 0px;
         &:hover{
-            background: #000;
-            color: var(--gray);
+            color:var(--grey);
         }
     }
+
+    & .dropdowncontent{
+        display: none;
+        background:var(--grey);
+        border: 1px solid black;
+        outline: 5px solid var(--grey);
+        width: 150px;
+        
+    }
+
+    &:nth-child(5):hover .dropdowncontent {
+        display: block;
+        position: absolute;
+        & a{
+            color: black;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        &:hover{
+            background: var(--orange);
+        }
+        }
+    }
+    
 }
+
+

@@ -1,17 +1,30 @@
 import React from 'react';
 import style from "./styles/Nav.module.scss"
 
-const Nav = () => {
+const Nav = (e) => {
+    let hrefLink = '#'
+    
     return(
         <div className={style.navcontainer}>
      
       <ul className={style.stul}>
-          <li className={style.stli}>Hakim Design x86</li>
-          <li className={style.stli} >etytey</li>
-          <li className={style.stli} >tyey</li>
-          <li className={style.stli} >teyet
+          <li>Hakim Design x86</li>
+          <li  >etytey</li>
+          <li  >tyey</li>
+          <li  >teyet</li>
+          <li  > 
+          jfjhfj
+           <div className={style.dropdowncontent}>
+     
+<a href={hrefLink}>zryzry</a>
+<a href={hrefLink} > zryzry</a>
+<a href={hrefLink} >zryzry</a>
+<hr></hr>
+<a href={hrefLink} >zryzry</a>
+
+         </div> 
+
           </li>
-          <li className={style.stli} >teyet</li>
       </ul>
 
             </div>
