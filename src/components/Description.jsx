@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './styles/Description.module.scss'
 const Description = () => {
-    console.log(style);
+
     
     return(
         <div >
